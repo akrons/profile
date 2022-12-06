@@ -1,0 +1,92 @@
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 600px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (min-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.image-circle{
+  border-radius: 50%;
+}
+
+.button-blue{
+  background-color: #7f9ee8;
+  color: #2b0853;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.button-blue:hover{
+  background-color: #1e449d;
+  color: #ac87d7;
+}
+
+body{
+  background-color: #f0efeb;
+  color: #c1d692;
+  padding: 40px;
+  text-align: center;
+  font-family: Space grotesk;
+}
+
+h1, h2, h3{
+  font-family: Space mono;
+  color: #2b0853;
+  padding: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #c1d692;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #01161E;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+a:hover{
+  color: #AEC3B0;
+}
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card{
+  background-color: #598392;
+  padding: 20px;
+  width: 100%;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #6b705c;
+  box-shadow: 0 0 16px rgba(1,1,1,0.1);
+}
